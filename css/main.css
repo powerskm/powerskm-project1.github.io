@@ -1,0 +1,608 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+article {
+	width: 975px;
+	margin: 0px auto 0px auto;
+	align-content: center;
+}
+nav ol {
+	margin: 20px 10px 20px 10px;
+	padding: 0px;
+}
+nav li {
+	width: 196px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: #3A3A3A;
+	font: normal 15px Century Gothic;
+	text-align: center;
+	padding: 0px 20px;
+	align-content: center;
+	display: inline;
+}
+nav a {
+	color: #3A3A3A;
+	text-decoration: none;
+}
+nav a:active {
+	font: bold 15px Century Gothic;
+	text-decoration: underline;
+}
+a.current {
+	font: bold 15px Century Gothic;
+	text-decoration: underline;	
+}
+div.for h3{
+	text-align: center;
+	font: bold italic 30px Century Gothic;	
+	color: #3A3A3A;
+	margin: 0px;
+	padding: 40px;
+}
+div.centered {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	font: bold 25px Century Gothic;	
+}
+div.members {
+	background-color: white;
+	border: 1px solid white;
+	color: #3A3A3A;
+	font: normal 15px Century Gothic;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+}
+a.btn1 {
+	background-color: #ED7E70;
+	font: bold 15px Century Gothic;
+	color: white;
+	padding: 12px 12px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+}
+a.btn1:hover {
+	background-color: #E8E85B;
+}
+#all {
+	width 975px;
+	align-content: center;
+}
+
+div.container {
+	margin: 20px 0px 0px 0px;
+	position: relative;
+  	text-align: center;
+  	color: #3A3A3A;
+	font: bold 15px Century Gothic;	
+}
+a.btn2 {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #ED7E70;
+	font: bold 15px Century Gothic;
+	color: white;
+	padding: 12px 30px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;	
+	text-decoration: none;
+}
+a.btn2:hover {
+	background-color: #E8E85B;
+}
+div.main {
+	width: 975px;
+}
+div.reviews {
+	position: relative;
+	top: 15px;
+	background-color: #85C441;
+	width: 275px;
+	height: 415px;
+	float: left;
+	margin: 0px 20px 0px 20px;
+	display: block;
+	text-align: center;
+	align-content: center;
+	color: white;
+	padding: 0px;
+	position: relative; 
+	left: 20px;
+	
+	-webkit-box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 7px 4px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 7px 4px rgba(0, 0, 0, 0.2);
+}
+div.person {
+	position: relative;
+	left: 62px;
+	width: 150px;
+	height: 150px;
+	top: 25px;		
+}
+
+div.reviews p{
+	font: normal 13px Century Gothic;
+	position: relative;
+	top: 35px;
+	margin: 0px;
+}
+div.stars {
+	position: relative;
+	height: 31px;
+	width: 194px;
+	top: 50px;
+	left: 42px;
+}
+
+div.reviews h3 {
+	position: relative;
+	top: 60px;
+	font: italic 15px Century Gothic;
+	clear:both;
+}
+
+div.bottom {
+	clear: both;
+	background-color: #4CC1B9;
+	display: block;
+	position: relative; 
+	top: 35px;
+	left: 20px;
+	float: left;
+	width: 450px;
+	height: 415px;
+	margin: 40px 20px 0px 20px;
+	text-align: center;
+	align-content: center;
+	padding: 0px;
+}
+
+div.bottom h4 {
+	position: relative;
+	font: bold italic 25px Century Gothic;
+	color: white;
+	padding: 5px;
+	top: 65px;
+	text-align: center;
+}
+
+div.bottom img {
+	position: absolute;
+	top: 0px;
+	left: 450px;
+	width: 1000px;
+	height: 415px;
+	float: right;
+
+}
+
+div.footer {
+	position: relative;
+	top: 100px;
+	clear: both;
+	background-color: #ED7E70;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.nav2 {
+	text-decoration: none;
+	position: relative;
+	color: white;
+}
+
+*/ MENU PAGE */
+
+div.containermenu {
+	margin: 20px 0px 0px 0px;
+	position: relative;
+  	text-align: center;
+  	color: #3A3A3A;
+	font: bold 15px Century Gothic;	
+}
+div.left {
+	position: absolute;
+	top: 75%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	font: bold 25px Century Gothic;	
+	text-align: center;
+}
+
+div.left h6{
+	font: italic 15px Century Gothic;	
+	text-align: center;
+	margin: 10px;
+	padding: 0px;
+}
+
+div.left p{
+	font: italic 10px Century Gothic;
+	text-align: center;
+	margin: 100px;
+}
+
+#food {
+	background-color: white;
+	width 940px;
+}
+
+div.rated h4 {
+	font: italic 30px Century Gothic;
+	color: #3A3A3A;
+	margin: 0px;
+	padding: 40px 0px 0px 0px;
+	position: relative;
+	text-align: center;
+}
+
+div.title h5 {
+	font: bold 25px Century Gothic;
+	color: #3A3A3A;
+	margin: 0px;
+	padding: 40px 0px 10px 0px;;
+	position: relative; 
+	left: 40px;
+}
+
+div.pink {
+	position: relative;
+	background-color: #ED7E70;
+	width: 275px;
+	height: 290px;
+	float: left;
+	display: block;
+	color: white;
+	position: relative; 
+	left: 20px;
+	margin: 20px 20px 25px 20px;
+
+	-webkit-box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 7px 4px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 7px 4px rgba(0, 0, 0, 0.2);
+}
+div.blue {
+	position: relative;
+	background-color: #4CC1B9;
+	width: 275px;
+	height: 290px;
+	float: left;
+	display: block;
+	color: white;
+	margin: 20px 20px 25px 20px;
+	position: relative;
+	left: 20px;
+
+	-webkit-box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 7px 4px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 7px 4px rgba(0, 0, 0, 0.2);
+}
+div.green {
+	position: relative;
+	background-color: #85C441;
+	width: 275px;
+	height: 290px;
+	float: left;
+	display: block;
+	color: white;
+	margin: 20px 20px 25px 20px;
+	position: relative; 
+	left: 20px;
+
+	-webkit-box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 7px 4px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 7px 4px rgba(0, 0, 0, 0.2);
+}
+div.foodpic {
+	position: relative;
+	padding: 0px;
+}
+
+div.fooditems p{
+	font: normal 12px Century Gothic;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+div.fooditems {
+	position: relative;
+}
+
+div.fooditems h3 {
+	position: relative;
+	top: 50px;
+	font: bold 22px Century Gothic;
+	clear: both;
+}
+
+*/ HOW IT WORKS PAGE */
+
+div.containerhow {
+	margin: 20px 0px 0px 0px;
+	position: relative;
+  	text-align: center;
+  	color: #3A3A3A;
+	font: bold 15px Century Gothic;	
+}
+div.right {
+	position: absolute;
+	top: 30%;
+	left: 62%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	font: bold 25px Century Gothic;	
+	text-align: center;
+}
+
+div.list {
+	clear:both;
+}
+
+div.leftside {
+	position: relative; 
+	float: left;
+	width: 450px;
+	height: 200px;
+	text-align: center;
+	align-content: center;
+	padding: 60px 0px 100px 20px;
+	margin: 0px 0px 40px 0px;
+}
+
+div.leftside img {
+	align-content: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.leftside h4 {
+	font: bold 30px Century Gothic;	
+	margin: 0px;
+	padding: 35px 0px 25px 0px;
+	align-content: center;
+}
+
+div.leftside h6 {
+	font: normal 20px Century Gothic;	
+	margin:0px;
+	padding: 0px;
+	align-content: center;
+}
+div.rightside img {
+	position: absolute;
+	left: 625px;
+	top: 100px;
+	bottom: 50px;
+	float: right;
+	margin 0px;
+	padding: 0px;
+}
+
+div.down {
+	position: relative;
+	top: 70px;
+}
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
